@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quotes App</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="text-center p-5 mt-3">
+      <h1 class="fw-bold">Quote of the Day</h1>
+      <p>Press the button below to recieve a random quote!</p>
+      <button onclick="addQuote()">New Quote</button>
+      <div id="block" class="bg-body-tertiary mt-4 w-75 mx-auto text-success">
+        <p id="quote" class="w-75 mx-auto"></p>
+        <p id="author"></p>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

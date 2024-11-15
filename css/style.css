@@ -1,0 +1,36 @@
+div {
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1) inset,
+    -1px -1px 10px rgba(0, 0, 0, 0.2) inset;
+}
+h1 {
+  font-size: 80px;
+  font-family: impact;
+  margin: 50px 0;
+}
+
+p {
+  font-size: 33px;
+  font-family: roman;
+  margin: 35px 0;
+  line-height: normal;
+}
+
+button {
+  width: 250px;
+  height: 80px;
+  background-color: blue;
+  color: white;
+}
+
+button:hover {
+  background-color: green;
+}
+
+@font-face {
+  font-family: impact;
+  src: url(/fonts/impact.woff);
+}
+@font-face {
+  font-family: roman;
+  src: url(/fonts/times\ new\ roman.ttf);
+}
